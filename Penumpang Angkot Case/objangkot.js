@@ -21,7 +21,7 @@ function Angkot(sopir, trayek, isiPenumpang, kas) {
                 this.kas += bayar;
                 return ({ 
                     'isiPenumpang' : this.isiPenumpang, 
-                    'kas' : this.kas });
+                    'totalKas' : this.kas });
             }
             
         }
